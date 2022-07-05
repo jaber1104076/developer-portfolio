@@ -10,6 +10,7 @@ body {
 
 .flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -66,4 +67,5 @@ body {
 
 footer {
     text-align: center;
+    margin-top: 50px;
 }
