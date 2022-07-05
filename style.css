@@ -8,7 +8,7 @@ body {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -44,5 +44,26 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 300px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.develop-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 12px 10px 5px gray;
+    border-top: 7px solid blue;
+    border-left: 7px solid orangered;
+    border-bottom: 7px solid wheat;
+}
+
+footer {
+    text-align: center;
 }
